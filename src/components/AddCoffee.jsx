@@ -22,7 +22,7 @@ const AddCoffee = () => {
       details,
       photo,
     };
-    // form.reset("");
+     form.reset("");
     console.log(newCoffee);
     //send data to server
     fetch("http://localhost:5000/coffee", {
@@ -40,7 +40,7 @@ const AddCoffee = () => {
             title: "Success!",
             text: "User added successfully",
             icon: "success",
-            confirmButtonText: "Cool",
+            confirmButtonText: "Okk",
           });
         }
       });
